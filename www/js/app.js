@@ -159,11 +159,56 @@ angular.module('starter', ['ionic','ionic.service.core', 'starter.controllers'])
     }
   })
 
-  .state('app.browse', {
-      url: '/browse',
+  .state('app.AcercaDe', {
+      url: '/AcercaDe',
       views: {
         'menuContent': {
-          templateUrl: 'templates/browse.html'
+          templateUrl: 'templates/PreguntasFrecuentes/AcercaDe.html'
+        }
+      }
+    })
+	
+	.state('app.Funciones', {
+      url: '/Funciones',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/PreguntasFrecuentes/Funciones.html'
+        }
+      }
+    })
+	
+	.state('app.ErrorCuenta', {
+      url: '/ErrorCuenta',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/PreguntasFrecuentes/ErrorCuenta.html'
+        }
+      }
+    })
+	
+	.state('app.ErrorBiblioteca', {
+      url: '/ErrorBiblioteca',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/PreguntasFrecuentes/ErrorBiblioteca.html'
+        }
+      }
+    })
+	
+	.state('app.ErrorHorario', {
+      url: '/ErrorHorario',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/PreguntasFrecuentes/ErrorHorario.html'
+        }
+      }
+    })
+	
+	.state('app.PreguntasPrincipal', {
+      url: '/PreguntasPrincipal',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/PreguntasFrecuentes/PreguntasPrincipal.html'
         }
       }
     })
